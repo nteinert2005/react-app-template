@@ -6,6 +6,6 @@
 
 
 ### What's in the works
-- [ ] Basic CSS inclusive (Bootstrap 5)
+- [X] Basic CSS inclusive (Bootstrap 5)
 
 

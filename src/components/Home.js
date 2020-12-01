@@ -4,8 +4,16 @@ import { Link } from 'react-router-dom';
 function Home(props){
     return(
         <>
-            <h1> this is the home page display props: {props.testing} </h1>
-            <Link to="/test"> Go to inner page.</Link>
+            <div className="container">
+                <div className="row">
+                    <h1>Home Page</h1>
+                    <small> Props: {props.testing}</small>
+                </div>
+                <div className="row">
+                    <Link to="/test">Inner Page Link </Link>
+                </div>
+
+            </div>
         </>
     )
 }
