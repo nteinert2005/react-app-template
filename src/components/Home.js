@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
+
+
 
 function Home(props){
     return(
         <>
+            <Navbar />
             <div className="container">
                 <div className="row">
                     <h1>Home Page</h1>
